@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color:#808080;
+}
+ul {
+    background-color: rgb(66,64,64);
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:20px;
+
+}
+ul li {
+        display: inline-block;
+        text-align:center;
+        margin-left:10px;
+}
+ul li:hover {
+            background-color: yellow;
+            color: black;
+
+}
+
+    ul li a{
+        color: white;
+        text-decoration:none;
+    }
+
+.main-img {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/nature2.jfif');
+    background-position: center center;
+}
+.content {
+    width:80%;
+    margin:auto;
+    text-align:center;
+    color:black;
+
+}
+.content h1 {
+    color: midnightblue;   
+    }
+.content p{
+    font-size:20px;
+}
+content img {
+    width:300px;
+}
+
+
+.container {
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+.container h2 {
+    margin:20px auto;
+    color:black;
+    font-size:30px;
+}
+
+
+
+
+.features {
+    display:flex;
+}
+
+.features .feature {
+   padding-top:25px;
+   text-align:center;
+   background-color:white;
+   width:30%;
+   margin:auto;
+   height:200px;
+   border-radius:10px;
+   transition: all 0.15s;
+}
+
+.features .feature:hover {
+        box-shadow:3px 3px 10px rgb(229 226 226);
+        transform: translateX(3px);
+        background-color:azure;
+
+}
+
+
+.features i {
+
+    background-color:red;
+    padding:15px;
+    margin:10px;
+    margin-bottom:20px;
+    
+    border-radius:50%;
+    color:white;
+
+}
+
+.features h3 {
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+.contact-us {
+    margin-top:50px;
+}
+.contact-form {
+        width: 600px;
+        margin:auto;
+        background-color:white;
+        padding:20px;
+        padding-top:40px;
+        border-radius:5px;
+        text-align:center;
+       
+
+}
+
+.input-form {
+    margin-bottom:20px;
+
+}
+
+.input-form input {
+    width:400px;
+    height:30px;
+    border-radius:5px;
+    border: 1px solid black;
+}
+
+textarea {
+    width:400px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    background-color:red;
+    border: 1px solid white;
+    height:50px;
+    color:white;
+    cursor:pointer;
+    font-size:30px;
+    width:200px;
+}
+
+footer {
+margin-top:20px;
+}
