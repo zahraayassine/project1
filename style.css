@@ -37,7 +37,7 @@ ul li:hover {
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../images/nature2.jfif');
+    background-image: url('nature2.jfif');
     background-position: center center;
 }
 .content {
